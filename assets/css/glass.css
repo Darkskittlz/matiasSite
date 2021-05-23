@@ -11,8 +11,10 @@ body {
   background-color: #eae6f0;
   background-image: url("../../img/wedding1.jpg");
   background-size: cover;
-  height: 100%;
-  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 a[href*="twitter.com/"] {
