@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/starter.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HOME</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/glass.css">  
+  </head>
+  
+
+  <body>
+  
+
+
+  <div id="sidebar">
+    <div class="toggle-btn" onclick="show()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>   
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="music.html">MUSIC</a></li>
+        <div class="container-fluid">
+          <a href="https://twitter.com/Darkskittlz1"></a>
+        </div>
+      </ul>
+  </div>
+
+
+  <div class="container-sm">
+    <h1>Matias </h1>
+  </div>
+
+    <script>
+      function show() {
+        document.getElementById('sidebar').classList.toggle('active');
+      }
+    </script> 
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "Testing";
+      }
+    </script>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script type="module" src="assets/js/starter.js"></script>
+  </body>
+</html>

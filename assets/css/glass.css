@@ -1,0 +1,84 @@
+html, body {
+    height: 100%;
+}
+
+
+
+
+body {
+  padding: 4.5rem;
+  margin: 0;
+  background-color: #eae6f0;
+  background-image: url("../../img/wedding1.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.container-sm {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 180px;
+  margin: 0px auto;
+  text-align: center;
+  background: #edc0bf;
+  background: linear-gradient(90deg, #2bff0f88 0, #52f5838a 100%);
+  backdrop-filter: blur(10px);
+}
+
+#sidebar {
+  position: absolute;
+  width: 14rem;
+  height: 100%;
+  left: -225px;
+  transition: .4s;
+  z-index: 1;
+  border: 1px solid black;
+  border-radius: 10px;
+  top: 0px;
+  background: #edc0bf;
+  background: linear-gradient(90deg, #0f57ff81 0, #52f5838a 100%);
+  backdrop-filter: blur(10px);
+} 
+    
+#sidebar.active {
+  left: 0;
+  height: 100%;
+}
+  
+#sidebar ul li a {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+  
+#sidebar ul li{
+  list-style: none;
+  font-size: 40px;
+  padding: 2px 2px;
+}
+
+  
+#sidebar .toggle-btn {
+  position: absolute;
+  left: 230px;
+  top: 10px;
+}
+  
+.toggle-btn span {
+  width: 45px;
+  height: 4px;
+  background: rgba(2, 2, 2, 0.938);
+  display: block;
+  margin-top: 4px;
+}
+
+
+
+@media only screen and (max-width: 503px) {
+  
+}
