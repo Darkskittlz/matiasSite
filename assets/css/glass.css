@@ -1,9 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
+
 html, body {
     height: 100%;
 }
-
-
-
 
 body {
   padding: 4.5rem;
@@ -25,7 +24,10 @@ a[href*="twitter.com/"] {
   position: relative;
 }
 
-
+#icons {
+  background: none;
+  border: none;
+}
 
 .container-sm {
   background-color: white;
@@ -37,6 +39,82 @@ a[href*="twitter.com/"] {
   background: #edc0bf;
   background: linear-gradient(90deg, #2bff0f88 0, #52f5838a 100%);
   backdrop-filter: blur(10px);
+}
+
+.container-lg {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 550px;
+  height: 500px;
+  color: whitesmoke;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.705);
+  backdrop-filter: 10px;
+  text-align: center;
+  font-family: 'Newsreader', serif;
+  padding-top: 20px;
+}
+
+.container-lg h2{
+  text-align: left;
+  color: rgb(4, 214, 4);
+}
+
+.container-fluid {
+  background-color: rgba(0, 0, 0, 0.712);
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 150px;
+  margin-top: 10px;
+  height: auto;
+  backdrop-filter: 10px;  
+}
+
+.container-fluid img{
+  height:250px;
+  width: 370px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+input[type="email"] {
+  border-bottom-left-radius: 0px;;
+  border-bottom-right-radius: 0px;;
+}
+
+input[type="password"] {
+  border-top-left-radius: 0px;;
+  border-top-right-radius: 0px;;
+  border-top: 0px;
+}
+
+.form {
+  border: 2px solid black;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.815);
+  width: 300px;
+  height: 200px;
+  margin: 0px auto;
+  backdrop-filter: 10px;
+  color: rgb(255, 255, 255);
+  padding-top: 5px;
+}
+
+.sign-in {
+  color: rgba(3, 208, 235, 0.897);
+}
+
+.checkbox {
+  margin-top: 10px;
+}
+
+#pic {
+  height: 400px;
+}
+
+#picLandscape {
+  width: 325px;
+  height: 400px;
 }
 
 #sidebar {
