@@ -23,7 +23,7 @@ padding: 4.5rem;
 margin: 0;
 height: 1000px;
 font-family: Source Sans Pro;
-background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("../../img/wedding11.jpg");
+background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("../../img/matias13.jpg");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -91,7 +91,7 @@ backdrop-filter: 10px;
 }
 
 .music-container {
-margin-top: 250px;
+margin-top: 310px;
 width: 380px;
 display: block;
 position: absolute;
@@ -104,7 +104,7 @@ transform: translate(-50%, -50%);
 height: 435px;
 background-size: cover;
 background-position: center;
-background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../../img/matias6.jpg');
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../../img/matias15.jpg');
 color: #fff;
 }
 
@@ -116,7 +116,7 @@ height: 50px;
 .music-header .fa-angle-left {
 float: left;
 margin-top: 15px;
-margin-right: 10px;
+margin-left: 15px;
 cursor: pointer;
 }
 
@@ -131,20 +131,20 @@ cursor: pointer;
 width: 250px;
 height: 30px;
 position: absolute;
-margin-left: 30px;
+margin-left: 53px;
 margin-top: 10px;
 text-align: center;
 padding-left: 10px;
 }
 
 .inner-img {
-padding-top: 60px;
+padding-top: 10px;
 }
 
 .inner-img img {
 border-radius: 50%;
 animation: rotate 5s linear infinite;
-margin-bottom: 30px;
+margin-bottom: 5px;
 }
 @keyframes rotate {
 100%{transform: rotate(360deg);}
@@ -157,6 +157,7 @@ margin-top: -10px;
 
 .music-control {
 background-image: linear-gradient(#ff000, #222);
+
 }
 
 .music-bar .progress {
@@ -182,8 +183,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .social-bar .fa {
-padding: 15px 26px;
-color: #999;
+padding: 25px 26px;
+color: white;
 font-size: 15px;
 cursor: pointer;
 }
@@ -195,6 +196,7 @@ padding-left: 39px;
 padding-top: 15px;
 width: 100%;
 background-color: #000000e1;
+color: white;
 background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80' width='80' height='80'%3E%3Cpath fill='%23f7f6f9' fill-opacity='0.25' d='M14 16H9v-2h5V9.87a4 4 0 1 1 2 0V14h5v2h-5v15.95A10 10 0 0 0 23.66 27l-3.46-2 8.2-2.2-2.9 5a12 12 0 0 1-21 0l-2.89-5 8.2 2.2-3.47 2A10 10 0 0 0 14 31.95V16zm40 40h-5v-2h5v-4.13a4 4 0 1 1 2 0V54h5v2h-5v15.95A10 10 0 0 0 63.66 67l-3.47-2 8.2-2.2-2.88 5a12 12 0 0 1-21.02 0l-2.88-5 8.2 2.2-3.47 2A10 10 0 0 0 54 71.95V56zm-39 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm40-40a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM15 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm40 40a2 2 0 1 0 0-4 2 2 0 0 0 0 4z'%3E%3C/path%3E%3C/svg%3E");
 }
 
