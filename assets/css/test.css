@@ -1,181 +1,62 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-
-  html {
-    min-width: 100%;
-    min-height: 100%;
-  }
-
-  a[href*="twitter.com/"] {
-    background:url(https://twitter.com/favicon.ico) no-repeat left center;
-    padding-left:19px;
-    margin-left: 10px;
-    bottom: 0;
-    position: relative;
+  margin: 0;
+  padding: 0;
 }
 
- 
+html {
+  min-width: 100%;
+  min-height: 100%;
+}
 
 body {
   padding: 4.5rem;
   margin: 0;
   height: 1000px;
   font-family: Source Sans Pro;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("../../img/naughty6.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("../../img/albumArt.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
-
-#sidebar {
-  position: absolute;
-  width: 14rem;
-  height: 100%;
-  left: -225px;
-  transition: .4s;
-  z-index: 1;
-  border: 1px solid black;
+div.container {
+  height: 300px;
+  width: 310px;
+  border: 2px solid white;
   border-radius: 10px;
-  top: 0px;
-  background: #edc0bf;
-  background: linear-gradient(90deg, #0f57ff81 0, #52f5838a 100%);
-  backdrop-filter: blur(10px);
-} 
-    
-#sidebar.active {
-  left: 0;
-  height: 100%;
-}
-  
-#sidebar ul li a {
-  text-decoration: none;
-  font-size: 30px;
-  color: black;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-  
-#sidebar ul li{
-  list-style: none;
-  font-size: 40px;
-  padding: 2px 2px;
-  margin-left: 50px;
-}
-
-  
-#sidebar .toggle-btn {
-  position: absolute;
-  left: 230px;
-  top: 10px;
-}
-  
-.toggle-btn span {
-  width: 45px;
-  height: 4px;
-  background: rgba(2, 2, 2, 0.938);
+  padding-top: 20px;
   display: block;
-  margin-top: 4px;
+  background: #edc0bf;
+  background: linear-gradient(90deg, #9f0fff34 0, #52f5e746 100%);
+  backdrop-filter: blur(10px);
 }
 
-.container-fluid {
-  position: relative;
-  bottom: 0;
+img.gif {
+  width: 180px;
+  height: 150px;
+  border-radius: 14px;
+  text-align: center;
+  display: block;
+  margin: 0px auto;
 }
 
-.container-lg {
-  border: 2px solid black;
-  backdrop-filter: 10px;
+.container h1 {
+  font-size: 25px;
+  text-align: center;
+  color: rgb(255, 253, 255);
 }
 
+.container h2 {
+  color: rgb(6, 248, 155);
+  font-size: 15px;
+  text-align: center;
+}
 
-input[type="email"] {
-	border-bottom-left-radius: 0px;;
-	border-bottom-right-radius: 0px;;
-  }
-  
-  input[type="password"] {
-	border-top-left-radius: 0px;;
-	border-top-right-radius: 0px;;
-	border-top: 0px;
-  }
-  
-  .form {
-	border: 2px solid black;
-	border-radius: 10px;
-	background: rgba(0, 0, 0, 0.815);
-	width: 300px;
-	height: 200px;
-	margin: 0px auto;
-	backdrop-filter: 10px;
-	color: rgb(255, 255, 255);
-	padding-top: 5px;
-  }
-  
-  .sign-in {
-	color: rgba(3, 208, 235, 0.897);
-  }
-  
-  .checkbox {
-	margin-top: 10px;
-  }
-  
-  #pic {
-	height: 400px;
-  }
-  
-  #picLandscape {
-	width: 325px;
-	height: 400px;
-  }
-  
-  #sidebar {
-	position: absolute;
-	width: 14rem;
-	height: 100%;
-	left: -225px;
-	transition: .4s;
-	z-index: 1;
-	border: 1px solid black;
-	border-radius: 10px;
-	top: 0px;
-	background: #edc0bf;
-	background: linear-gradient(90deg, #0f57ff81 0, #52f5838a 100%);
-	backdrop-filter: blur(10px);
-  } 
-	  
-  #sidebar.active {
-	left: 0;
-	height: 100%;
-  }
-	
-  #sidebar ul li a {
-	text-decoration: none;
-	font-size: 30px;
-	color: black;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-	
-  #sidebar ul li{
-	list-style: none;
-	font-size: 40px;
-	padding: 2px 2px;
-  }
-  
-	
-  #sidebar .toggle-btn {
-	position: absolute;
-	left: 230px;
-	top: 10px;
-  }
-	
-  .toggle-btn span {
-	width: 45px;
-	height: 4px;
-	background: rgba(2, 2, 2, 0.938);
-	display: block;
-	margin-top: 4px;
-  }
-  
+a.email {
+  color: rgb(6, 248, 155);
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  padding-top: 7px;
+}

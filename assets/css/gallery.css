@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
+
+
+@font-face {
+  font-family: "shakespeare";
+  src: url("shakespeare.ttf");
+  font-family: "notMyType";
+  src: url("notMyType.otf");
+}
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+  padding: 4.5rem;
+  margin: 0;
+  background-color: #eae6f0;
+  background-image: url("../../img/oldPaper1.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+a[href*="twitter.com/"] {
+  background:url(https://twitter.com/favicon.ico) no-repeat left center;
+  padding-left: 15px;
+  margin-left: -15px;
+  bottom: 0;
+  position: relative;
+}
+
+#icons {
+  background: none;
+  border: none;
+}
+
+
+
+
+#sidebar {
+  position: absolute;
+  width: 14rem;
+  height: 100%;
+  left: -225px;
+  transition: .4s;
+  z-index: 1;
+  border: 1px solid black;
+  border-radius: 10px;
+  top: 0px;
+  background: #edc0bf;
+  background: url("../../img/oldPaper1.jpg");
+  z-index: 1;
+} 
+    
+#sidebar.active {
+  left: 0;
+  height: 100%;
+}
+  
+#sidebar ul li a {
+  text-decoration: none;
+  font-size: 39px;
+  color: black;
+  font-family: 'notMyType';
+}
+  
+#sidebar ul li{
+  list-style: none;
+  font-size: 40px;
+  padding: 2px 2px;
+}
+
+  
+#sidebar .toggle-btn {
+  position: absolute;
+  left: 230px;
+  top: 10px;
+}
+  
+.toggle-btn span {
+  width: 45px;
+  height: 4px;
+  background: rgba(2, 2, 2, 0.938);
+  display: block;
+  margin-top: 4px;
+}
+
+.container-sm {
+  border-radius: 10px;
+  width: 160px;
+  margin: 0px auto;
+  text-align: center;
+  background-image: url("../../img/bg3.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backdrop-filter: blur(10px);
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: width 0.6s;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: white;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
