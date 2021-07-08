@@ -87,6 +87,48 @@ a[href*="twitter.com/"] {
   margin-top: 4px;
 }
 
+
+#wrap {
+  min-height: 30%;
+}
+  
+#main {
+  overflow:auto;
+  padding-bottom: 30px; /* this needs to be bigger than footer height*/
+}
+
+
+
+
+div #main.example-row.clear-top.container {
+  background-color: rgba(255, 255, 255, 0.096);
+  display: inline-block;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;  
+  color: rgba(3, 2, 2, 0.705);
+}
+
+div #main.example-row.clear-top.container .example-content-secondary ul li{
+  color: black;
+}
+
+div.example-content-main {
+  display: inline-block;
+}
+
+
+.example-content-main ul li {
+  margin-left: 0px;
+  font-weight: 600;
+}
+
+.example-content-secondary ul li {
+  font-weight: 400;
+  color: rgba(240, 2, 2, 0.918);
+}
+
 .container-sm {
   border-radius: 10px;
   width: 160px;
@@ -193,3 +235,5 @@ a[href*="twitter.com/"] {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
