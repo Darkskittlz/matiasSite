@@ -43,7 +43,7 @@ a[href*="twitter.com/"] {
   width: 370px;
   margin: 0px auto;
   text-align: center;
-  background-image: url("../../img/streak6.png");
+  background-image: url("../../img/goldStroke.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -53,7 +53,7 @@ a[href*="twitter.com/"] {
 
 .container-sm h1{
    font-size: 41px;
-   color: wheat;
+   color: white;
    font-family: 'Oswald';
 }
 
