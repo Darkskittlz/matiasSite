@@ -50,7 +50,7 @@ a[href*="twitter.com/"] {
 }
 
 .container-sm h1{
-  font-family: 'Oswald';
+  font-family: 'notMyType';
   margin-left: 9px;
 }
 
@@ -116,6 +116,43 @@ input[type="password"] {
   margin-top: 4px;
 }
 
+
+div.example-row.clear-top.container {
+  background-color: rgba(255, 255, 255, 0.096);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;  
+  color: rgba(3, 2, 2, 0.705);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+#youtube1.example-content-secondary {
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  height: 190px;
+  width: 170px;
+  top: 20px;
+}
+
+#youtube1.example-content-secondary h2{
+  color: rgb(234, 0, 255);
+  text-align: center;
+  font-size: 31px;
+}
+
+.example-content-main ul li {
+  margin-left: 0px;
+  font-weight: 600;
+}
+
+.example-content-secondary ul li {
+  font-weight: 400;
+  color: rgba(240, 2, 2, 0.918);
+}
 
 div#youtube1 {
   height: 300px;

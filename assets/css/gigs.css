@@ -39,7 +39,7 @@ a[href*="twitter.com/"] {
 .container-sm {
   border-radius: 10px;
   width: 190px;
-  /* height: 49px; */
+  height: 45px;
   margin: 0px auto;
   text-align: center;
   background-image: url("../../img/streak3.png");
@@ -55,6 +55,7 @@ div.container-sm {
 
 .container-sm h1 {
   font-size: 34px;
+  font-family: 'notMyType';
 }
 
 input.bandsInTown {

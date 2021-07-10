@@ -53,9 +53,9 @@ a[href*="twitter.com/"] {
 
 .container-sm h1{
    font-size: 41px;
-   color: white;
-   font-family: 'Oswald';
-}
+   color: black;
+   font-family: 'notMyType';
+  }
 
 
 input[type="email"] {

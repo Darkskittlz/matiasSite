@@ -101,6 +101,11 @@ margin-top: 4px;
   margin-bottom: 15px;
 }
 
+.container-sm h1{
+  font-family: 'notMyType';
+  font-size: 38px;
+}
+
 .container-fluid {
 position: relative;
 bottom: 0;

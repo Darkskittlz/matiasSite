@@ -131,7 +131,7 @@ div.example-content-main {
 
 .container-sm {
   border-radius: 10px;
-  width: 160px;
+  width: 185px;
   margin: 0px auto;
   text-align: center;
   background-image: url("../../img/bg3.png");
@@ -139,6 +139,10 @@ div.example-content-main {
   background-position: center;
   position: relative;
   backdrop-filter: blur(10px);
+}
+
+.container-sm h1{
+  font-family: 'notMyType';
 }
 
 * {box-sizing:border-box}

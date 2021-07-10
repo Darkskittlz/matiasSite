@@ -99,8 +99,8 @@ img.gif  {
 
 .container-sm {
   border-radius: 10px;
-  height: 45px;
-  width: 120px;
+  height: 55px;
+  width: 180px;
   margin: 0px auto;
   margin-bottom: 3px;
   text-align: center;
@@ -112,8 +112,8 @@ img.gif  {
 }
 
 .container-sm h1{
-  color: #E7D23B;
-  font-family: 'shakespeare';
+  color: rgb(160, 4, 4);
+  font-family: 'notMyType';
 }
 
 .container-s {
