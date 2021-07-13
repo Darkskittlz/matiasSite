@@ -23,6 +23,54 @@ body {
   position: relative;
 }
 
+#sidebar {
+  position: absolute;
+  width: 17rem;
+  height: 100%;
+  left: -260px;
+  transition: .4s;
+  z-index: 1;
+  border-radius: 10px;
+  top: 0px;
+  background: #edc0bf;
+  background: url("../../img/burntPaper.png");
+  background-size: cover;
+  background-position: right;
+} 
+    
+#sidebar.active {
+  left: 0;
+  height: 100%;
+}
+  
+#sidebar ul li a {
+  text-decoration: none;
+  font-size: 39px;
+  font-family: 'notMyType';
+  color: black;
+}
+  
+#sidebar ul li{
+  list-style: none;
+  font-size: 50px;
+  padding: 2px 2px;
+}
+
+  
+#sidebar .toggle-btn {
+  position: absolute;
+  left: 265px;
+  top: 10px;
+}
+  
+.toggle-btn span {
+  width: 45px;
+  height: 4px;
+  background: rgba(2, 2, 2, 0.938);
+  display: block;
+  margin-top: 4px;
+}
+
 a[href*="twitter.com/"] {
   background:url(https://twitter.com/favicon.ico) no-repeat left center;
   padding-left: 15px;
@@ -52,55 +100,10 @@ a[href*="youtube.com/"] {
   border: none;
 }
 
-.container-lg {
-  background-color: rgba(0, 0, 0, 0.712);
-  border: 2px solid black;
-  border-radius: 10px;
-  margin-top: 10px;
-  margin: 0px auto;
-  height: 320px;
-  width: 460px;
-  backdrop-filter: 10px;  
-  margin-bottom: 5px;
-}
-
-div.container-lg {
-  margin-bottom: 5px;
-}
-
-.container-lg h1{
-    color: white;
-    font-size: 31px;
-    text-align: center;
-}
-
-img.gif  {
-    margin: 0px auto;
-    display: block;
-}
-
-@media screen and (min-width: 411px) {
-  .container-lg {
-      width: 290px;
-      height: 250px;
-  }
-  .container-lg h1{
-    font-size: 18px;
-    padding-top: 10px;
-  }
-}
-
-.container-lg img{
-  height:180px;
-  width: 190px;
-  margin-top: 5px;
-  border-radius: 10px;
-}
-
 .container-sm {
   border-radius: 10px;
-  height: 45px;
-  width: 120px;
+  height: 55px;
+  width: 180px;
   margin: 0px auto;
   margin-bottom: 3px;
   text-align: center;
@@ -111,13 +114,30 @@ img.gif  {
   backdrop-filter: blur(10px);
 }
 
-.container-sm h1{
-  color: #E7D23B;
-  font-family: 'shakespeare';
+.clearfix {
+  background-color: rgba(0, 0, 0, 0.829);
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 10px;
+  height: 320px;
+  backdrop-filter: 10px;  
+  margin-bottom: 5px;
 }
 
-.container-s {
-  height: 25px;
+
+
+.clearfix p {
+  text-align: center;
+}
+
+
+div.container-sm h1{
+  color: rgb(160, 4, 4);
+  font-family: 'notMyType';
+}
+
+div.container {
+  height: auto;
   width: 150px;
   margin: 0px auto;
   display: block;
@@ -126,96 +146,52 @@ img.gif  {
   backdrop-filter: 10px;
 }
 
-.container-s a {
+div.container a {
   margin-left: 19px;
 }
 
-
-#sidebar {
-  position: absolute;
-  width: 14rem;
-  height: 100%;
-  left: -225px;
-  transition: .4s;
-  z-index: 1;
-  border: 1px solid black;
-  border-radius: 10px;
-  top: 0px;
-  background: url("../../img/oldPaper1.jpg");
-} 
-    
-#sidebar.active {
-  left: 0;
-  height: 100%;
-}
-  
-#sidebar ul li a {
-  text-decoration: none;
-  font-size: 39px;
-  font-family: 'notMyType';
-  color: black;
-}
-  
-#sidebar ul li{
-  list-style: none;
-  font-size: 50px;
-  padding: 2px 2px;
+div.clearfix {
+  height: auto;
+  width: auto;
 }
 
-  
-#sidebar .toggle-btn {
-  position: absolute;
-  left: 230px;
-  top: 10px;
-}
-  
-.toggle-btn span {
-  width: 45px;
-  height: 4px;
-  background: rgba(2, 2, 2, 0.938);
+div.clearfix img  {
+  height: 400px;
+  width: 390px;
+  margin: 0px auto;
   display: block;
-  margin-top: 4px;
+  padding: 5px;
 }
 
-#gigs li {
-  text-align: left;
-}
-
-div#gigs.container-lg {
-  height: 240px;
-}
-
-div#journal.container-lg {
-  width: 550px;
-  height: 480px;
-}
-
-div#journal.container-fluid h2 {
+div.clearfix p{
   color: white;
-  font-size: 25px;
-  text-align: center;
-  
-}
-h3#quote  {
-  margin-top: 22px;
 }
 
-@media screen and (min-width: 411px) {
-  div#journal.container-lg {
-    width: 330px;
-    height: auto;
+
+@media screen and (max-width: 729px) {
+  div.container-lg {
+      width: 320px;
+      height: auto;
   }
 
-  div#journal.container-fluid h2 {
-    font-size: 16px;
-    text-align: center;
-  }
-  h3#quote  {
-    font-size: 15px;
-    font-style: italic;
-  }
-  h3#quote1  {
+  div.container-lg h1{
+    padding-top: 5px;
     font-size: 18px;
-    font-family: "shakespeare";
+  }
+
+  div.container-lg img  {
+  padding-top: 10px;
+  height: 200px;
+  width: 250px;
+  margin: 0px auto;
+  display: block;
+  }
+
+  div.container-lg {
+    height: 260px;
+  }
+  
+  div.container {
+    margin: 0px auto;
   }
 }

@@ -36,115 +36,19 @@ a[href*="twitter.com/"] {
   border: none;
 }
 
-.container-sm {
-  border-radius: 10px;
-  width: 190px;
-  /* height: 49px; */
-  margin: 0px auto;
-  text-align: center;
-  background-image: url("../../img/streak3.png");
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  backdrop-filter: blur(10px);
-}
-
-div.container-sm {
-  margin-bottom: -5px;
-}
-
-.container-sm h1 {
-  font-size: 34px;
-}
-
-input.bandsInTown {
-  border-radius: 5px;
-  width: 170px;
-  font-size: 23px;
-  padding: 5px;
-  padding-top: 15px;
-  display: inline;
-  margin: 0px auto;
-}
-
-
-div#gigs.container-lg {
-    border-radius: 10px;
-    margin: 0px auto;
-    display: block;
-    margin-top: 10px;
-    padding-top: 2px;
-    backdrop-filter: 10px;
-    background-color: rgba(0, 0, 0, 0.884);
-}
-
-div#gigs.container-lg li{
-    color: white;
-}
-
-@media screen and (min-width: 411px) {
-    div#gigs.container-lg {
-      width: 240px;
-      height: auto;
-    }
-  }
-
-
-
-
-input[type="email"] {
-  border-bottom-left-radius: 0px;;
-  border-bottom-right-radius: 0px;;
-}
-
-input[type="password"] {
-  border-top-left-radius: 0px;;
-  border-top-right-radius: 0px;;
-  border-top: 0px;
-}
-
-.form {
-  border: 2px solid black;
-  border-radius: 10px;
-  background: rgba(0, 0, 0, 0.815);
-  width: 300px;
-  height: 200px;
-  margin: 0px auto;
-  backdrop-filter: 10px;
-  color: rgb(255, 255, 255);
-  padding-top: 5px;
-}
-
-.sign-in {
-  color: rgba(3, 208, 235, 0.897);
-}
-
-.checkbox {
-  margin-top: 10px;
-}
-
-#pic {
-  height: 400px;
-}
-
-#picLandscape {
-  width: 325px;
-  height: 400px;
-}
-
 #sidebar {
   position: absolute;
-  width: 14rem;
+  width: 17rem;
   height: 100%;
-  left: -225px;
+  left: -260px;
   transition: .4s;
   z-index: 1;
-  border: 1px solid black;
   border-radius: 10px;
   top: 0px;
   background: #edc0bf;
-  background: url("../../img/oldPaper1.jpg");
-  backdrop-filter: blur(10px);
+  background: url("../../img/burntPaper.png");
+  background-size: cover;
+  background-position: right;
 } 
     
 #sidebar.active {
@@ -168,7 +72,7 @@ input[type="password"] {
   
 #sidebar .toggle-btn {
   position: absolute;
-  left: 230px;
+  left: 265px;
   top: 10px;
 }
   
@@ -180,5 +84,72 @@ input[type="password"] {
   margin-top: 4px;
 }
 
+div.container-sm {
+  border-radius: 10px;
+  width: 340px;
+  height: auto;
+  margin: 0px auto;
+  text-align: center;
+  background-image: url("../../img/streak3.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backdrop-filter: blur(10px);
+}
+
+.container-sm h1 {
+  font-size: 51px;
+  font-family: 'notMyType';
+}
+
+input.bandsInTown {
+  border-radius: 5px;
+  width: 70px;
+  font-size: 23px;
+  padding: 5px;
+  padding-top: 15px;
+  display: inline;
+  margin: 0px auto;
+}
+
+
+div.container-lg {
+    border-radius: 10px;
+    width: 580px;
+    height: auto;
+    margin: 0px auto;
+    display: block;
+    margin-top: 10px;
+    padding-top: 2px;
+    backdrop-filter: 10px;
+    background-color: rgba(0, 0, 0, 0.884);
+}
+
+div.container-lg li{
+  color: white;
+  font-size: 45px;
+  margin-left: 15px;
+}
+
+
+@media screen and (max-width: 729px) {
+  div.container-sm {
+    margin: 0px auto;
+    width: 290px;
+  }
+  
+  div.container-lg {
+    width: 320px;
+    height: auto;
+  }
+
+  div.container-lg ul li {
+    font-size: 23px;
+  }
+
+  input.bandsInTown {
+    font-size: 20px;
+  }
+}
 
 

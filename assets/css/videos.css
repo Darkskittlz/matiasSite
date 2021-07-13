@@ -39,7 +39,6 @@ a[href*="twitter.com/"] {
 
 .container-sm {
   border-radius: 10px;
-  width: 280px;
   margin: 0px auto;
   text-align: center;
   background-image: url("../../img/streak5.png");
@@ -48,14 +47,16 @@ a[href*="twitter.com/"] {
   position: relative;
   backdrop-filter: blur(10px);
 }
-
-.container-sm h1{
-  font-family: 'Oswald';
-  margin-left: 9px;
+ 
+div.container-sm {
+  width: 400px;
 }
 
-
-
+.container-sm h1{
+  font-family: 'notMyType';
+  margin-left: 9px;
+  font-size: 41px;
+}
 
 input[type="email"] {
   border-bottom-left-radius: 0px;;
@@ -71,16 +72,17 @@ input[type="password"] {
 
 #sidebar {
   position: absolute;
-  width: 14rem;
+  width: 17rem;
   height: 100%;
-  left: -225px;
+  left: -260px;
   transition: .4s;
   z-index: 1;
-  border: 1px solid black;
   border-radius: 10px;
   top: 0px;
   background: #edc0bf;
-  background: url("../../img/oldPaper1.jpg");
+  background: url("../../img/burntPaper.png");
+  background-size: cover;
+  background-position: right;
 } 
     
 #sidebar.active {
@@ -104,7 +106,7 @@ input[type="password"] {
   
 #sidebar .toggle-btn {
   position: absolute;
-  left: 230px;
+  left: 265px;
   top: 10px;
 }
   
@@ -116,37 +118,79 @@ input[type="password"] {
   margin-top: 4px;
 }
 
-
-div#youtube1 {
-  height: 300px;
-  width: 390px;
-  display: block;
-  left: 0;
-  position: relative;
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
-div#youtube2 {
-  height: 300px;
-  width: 390px;
-  display: block;
-  margin: 0px auto;
-  position: relative;
-  right: -5px;
-}
 
-div.container-m {
-  height: 22rem;
-  padding: 10px;
-  padding-bottom: 10px;
-  border-radius: 10px;
-  width: 850px;
-  /* background-image: url('../../img/oldPaper1.jpg'); */
-  margin: 0px auto;
-  backdrop-filter: 10px;
-  display: flex; /* or inline-flex */
+.example-row {
+  display: flex;
   flex-wrap: wrap;
-  /* border: 9px solid rgba(0, 0, 0, 0.842); */
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.example-container {
+  border-radius: 10px;
+  /* padding: 5px; */
+  background-color: rgba(255, 255, 255, 0.096);
+  backdrop-filter: blur(10px);
+  height: auto;
+  max-width: 1000px;
+  overflow: hidden;
+  margin: 0px auto;
+}
+
+.example-row .clear-top .container {
+  width: 200px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.example-content-main iframe{
+  margin: 5px;
+  width: 590px;
+  height: 390px;
+}
+
+.example-content-secondary {
+  border: 2px solid black;
+  margin: 0px auto;
+  margin-left: 0px;
+  margin-top: 5px;
+  height: 390px;
+  width: 350px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+.example-content-secondary h1{
+  font-family: 'shakespeare';
+  text-align: center;
+  font-weight: 250px;
+}
+
+.example-content-secondary p{
+  text-align: left;
 }
 
 
-
+@media screen and (max-width: 767px) {
+  div.container-sm {
+    width: 290px;
+  }
+  div.container-sm h1{
+    font-size: 35px;
+  }
+  .example-content-main iframe{
+    width: 250px;
+    text-align: center;
+  }
+  div.example-content-secondary {
+    width: 260px;
+  }
+  div.example-container {
+    margin: 0px auto;
+    width: 300px;
+  }
+}

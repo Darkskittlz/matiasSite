@@ -40,18 +40,18 @@ position: relative;
 
 
 #sidebar {
-position: absolute;
-width: 14rem;
-height: 100%;
-left: -225px;
-transition: .4s;
-z-index: 1;
-border: 1px solid black;
-border-radius: 10px;
-top: 0px;
-background: #edc0bf;
-background: url("../../img/oldPaper1.jpg");
-backdrop-filter: blur(10px);
+  position: absolute;
+  width: 17rem;
+  height: 100%;
+  left: -260px;
+  transition: .4s;
+  z-index: 1;
+  border-radius: 10px;
+  top: 0px;
+  background: #edc0bf;
+  background: url("../../img/burntPaper.png");
+  background-size: cover;
+  background-position: right;
 } 
   
 #sidebar.active {
@@ -61,7 +61,7 @@ height: 100%;
 
 #sidebar ul li a {
 text-decoration: none;
-font-size: 30px;
+font-size: 39px;
 color: black;
 font-family: 'notMyType';
 }
@@ -75,9 +75,9 @@ margin-left: 50px;
 
 
 #sidebar .toggle-btn {
-position: absolute;
-left: 230px;
-top: 10px;
+  position: absolute;
+  left: 265px;
+  top: 10px;
 }
 
 .toggle-btn span {
@@ -90,7 +90,8 @@ margin-top: 4px;
 
 .container-sm {
   border-radius: 10px;
-  width: 200px;
+  width: 340px;
+  height: auto;
   margin: 0px auto;
   text-align: center;
   background-image: url("../../img/streak4.png");
@@ -98,7 +99,12 @@ margin-top: 4px;
   background-position: center;
   position: relative;
   backdrop-filter: blur(10px);
-  margin-bottom: 15px;
+  margin-bottom: 22px;
+}
+
+.container-sm h1{
+  font-family: 'notMyType';
+  font-size: 51px;
 }
 
 .container-fluid {

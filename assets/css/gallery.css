@@ -36,22 +36,19 @@ a[href*="twitter.com/"] {
   border: none;
 }
 
-
-
-
 #sidebar {
   position: absolute;
-  width: 14rem;
+  width: 17rem;
   height: 100%;
-  left: -225px;
+  left: -260px;
   transition: .4s;
   z-index: 1;
-  border: 1px solid black;
   border-radius: 10px;
   top: 0px;
   background: #edc0bf;
-  background: url("../../img/oldPaper1.jpg");
-  z-index: 1;
+  background: url("../../img/burntPaper.png");
+  background-size: cover;
+  background-position: right;
 } 
     
 #sidebar.active {
@@ -75,7 +72,7 @@ a[href*="twitter.com/"] {
   
 #sidebar .toggle-btn {
   position: absolute;
-  left: 230px;
+  left: 265px;
   top: 10px;
 }
   
@@ -97,7 +94,11 @@ a[href*="twitter.com/"] {
   padding-bottom: 30px; /* this needs to be bigger than footer height*/
 }
 
-
+.container-sm {
+  width: 370px;
+  margin: 0px auto;
+  text-align: center;
+}
 
 
 div #main.example-row.clear-top.container {
@@ -131,7 +132,7 @@ div.example-content-main {
 
 .container-sm {
   border-radius: 10px;
-  width: 160px;
+  width: 370px;
   margin: 0px auto;
   text-align: center;
   background-image: url("../../img/bg3.png");
@@ -139,6 +140,11 @@ div.example-content-main {
   background-position: center;
   position: relative;
   backdrop-filter: blur(10px);
+}
+
+.container-sm h1{
+  font-family: 'notMyType';
+  font-size: 61px;
 }
 
 * {box-sizing:border-box}
