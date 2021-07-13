@@ -40,7 +40,7 @@ a[href*="twitter.com/"] {
 
 .container-sm {
   border-radius: 10px;
-  width: 370px;
+  width: 470px;
   margin: 0px auto;
   text-align: center;
   background-image: url("../../img/goldStroke.png");
@@ -52,7 +52,7 @@ a[href*="twitter.com/"] {
 }
 
 .container-sm h1{
-   font-size: 41px;
+   font-size: 51px;
    color: black;
    font-family: 'notMyType';
   }
@@ -72,16 +72,17 @@ input[type="password"] {
 
 #sidebar {
   position: absolute;
-  width: 14rem;
+  width: 17rem;
   height: 100%;
-  left: -225px;
+  left: -260px;
   transition: .4s;
   z-index: 1;
-  border: 1px solid black;
   border-radius: 10px;
   top: 0px;
   background: #edc0bf;
-  background: url("../../img/oldPaper1.jpg");
+  background: url("../../img/burntPaper.png");
+  background-size: cover;
+  background-position: right;
 } 
     
 #sidebar.active {
@@ -97,6 +98,7 @@ input[type="password"] {
 }
   
 #sidebar ul li{
+  margin-top: 15px;
   list-style: none;
   font-size: 40px;
   padding: 2px 2px;
@@ -105,7 +107,7 @@ input[type="password"] {
   
 #sidebar .toggle-btn {
   position: absolute;
-  left: 230px;
+  left: 265px;
   top: 10px;
 }
   
@@ -154,7 +156,7 @@ h3#quote  {
   margin-top: 22px;
 }
 
-@media screen and (min-width: 411px) {
+@media screen and (max-width: 729px) {
   div#journal.container-lg {
     width: 330px;
     height: auto;

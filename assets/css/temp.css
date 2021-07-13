@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+body {
+  padding: 4.5rem;
+  margin: 0;
+  height: 1000px;
+  font-family: Source Sans Pro;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("../../img/albumArt.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+div.container {
+  height: 300px;
+  width: 310px;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding-top: 20px;
+  display: block;
+  background: #edc0bf;
+  background: linear-gradient(90deg, #9f0fff34 0, #52f5e746 100%);
+  backdrop-filter: blur(10px);
+}
+
+img.gif {
+  width: 180px;
+  height: 150px;
+  border-radius: 14px;
+  text-align: center;
+  display: block;
+  margin: 0px auto;
+}
+
+.container h1 {
+  font-size: 25px;
+  text-align: center;
+  color: rgb(255, 253, 255);
+}
+
+.container h2 {
+  color: rgb(6, 248, 155);
+  font-size: 15px;
+  text-align: center;
+}
+
+a.email {
+  color: rgb(6, 248, 155);
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  padding-top: 7px;
+}
