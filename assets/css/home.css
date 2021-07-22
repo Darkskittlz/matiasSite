@@ -95,6 +95,15 @@ a[href*="youtube.com/"] {
   position: relative;
 }
 
+a[href*="instagram.com/"] {
+  background:url(https://instagram.com/favicon.ico) no-repeat left center;
+  padding-left: 15px;
+  margin-left: -15px;
+  width: 15px;
+  bottom: 0;
+  position: relative;
+}
+
 #icons {
   background: none;
   border: none;
@@ -114,33 +123,34 @@ a[href*="youtube.com/"] {
   backdrop-filter: blur(10px);
 }
 
-.clearfix {
-  background-color: rgba(0, 0, 0, 0.829);
-  border: 2px solid black;
-  border-radius: 10px;
-  margin-top: 10px;
-  height: 320px;
-  width: 300px;
-  backdrop-filter: 10px;  
-  margin-bottom: 5px;
-}
-
-
-
-.clearfix p {
-  text-align: center;
-}
-
-
 div.container-sm h1{
   color: rgb(160, 4, 4);
   font-family: 'notMyType';
 }
 
-div.container {
+
+div.container-m {
+  background-color: rgba(0, 0, 0, 0.829);
+  backdrop-filter: 10px;  
+  padding: 10px;
+  width: auto;
   height: auto;
-  width: 150px;
-  margin: 0px auto;
+}
+
+img#profileIMG.col-md-6.float-md-end.mb-3.ms-md-3 {
+  margin: 10px auto;
+  display: block;
+}
+
+div.container-m p{
+  color: white;
+  text-align: center;
+}
+
+div.container {
+  height: 25px;
+  width: 210px;
+  margin: 5px auto;
   display: block;
   border-radius: 10px;
   background-color: rgba(7, 35, 36, 0.74);
@@ -148,25 +158,13 @@ div.container {
 }
 
 div.container a {
-  margin-left: 19px;
+  margin-left: 11px;
+  left: 10px;
 }
 
-div.clearfix {
-  height: auto;
-  width: auto;
-}
 
-div.clearfix img  {
-  height: 400px;
-  width: 390px;
-  margin: 0px auto;
-  display: block;
-  padding: 5px;
-}
 
-div.clearfix p{
-  color: white;
-}
+
 
 
 @media screen and (max-width: 729px) {
