@@ -70,11 +70,12 @@ input[type="password"] {
 }
 
 
+
 #sidebar {
   position: absolute;
-  width: 17rem;
+  width: 19rem;
   height: 100%;
-  left: -260px;
+  left: -290px;
   transition: .4s;
   z-index: 1;
   border-radius: 10px;
@@ -106,7 +107,7 @@ input[type="password"] {
   
 #sidebar .toggle-btn {
   position: absolute;
-  left: 265px;
+  left: 295px;
   top: 10px;
 }
   
@@ -183,7 +184,7 @@ input[type="password"] {
     font-size: 35px;
   }
   .example-content-main iframe{
-    width: 250px;
+    width: 330px;
     text-align: center;
   }
   div.example-content-secondary {

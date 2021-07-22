@@ -38,9 +38,9 @@ a[href*="twitter.com/"] {
 
 #sidebar {
   position: absolute;
-  width: 17rem;
+  width: 19rem;
   height: 100%;
-  left: -260px;
+  left: -290px;
   transition: .4s;
   z-index: 1;
   border-radius: 10px;
@@ -72,7 +72,7 @@ a[href*="twitter.com/"] {
   
 #sidebar .toggle-btn {
   position: absolute;
-  left: 265px;
+  left: 295px;
   top: 10px;
 }
   
@@ -102,24 +102,17 @@ div.container-sm {
   font-family: 'notMyType';
 }
 
-input.bandsInTown {
-  border-radius: 5px;
-  width: 70px;
-  font-size: 23px;
-  padding: 5px;
-  padding-top: 15px;
-  display: inline;
-  margin: 0px auto;
-}
+
 
 
 div.container-lg {
     border-radius: 10px;
-    width: 580px;
+    width: 600px;
     height: auto;
     margin: 0px auto;
     display: block;
     margin-top: 10px;
+    margin-bottom: 10px;
     padding-top: 2px;
     backdrop-filter: 10px;
     background-color: rgba(0, 0, 0, 0.884);
@@ -129,6 +122,16 @@ div.container-lg li{
   color: white;
   font-size: 45px;
   margin-left: 15px;
+}
+
+input.bandsInTown {
+  border-radius: 5px;
+  width: 70px;
+  font-size: 23px;
+  padding: 5px;
+  padding-top: 15px;
+  display: inline;
+  margin: 0px auto;
 }
 
 

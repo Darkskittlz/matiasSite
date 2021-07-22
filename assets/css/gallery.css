@@ -38,9 +38,9 @@ a[href*="twitter.com/"] {
 
 #sidebar {
   position: absolute;
-  width: 17rem;
+  width: 19rem;
   height: 100%;
-  left: -260px;
+  left: -290px;
   transition: .4s;
   z-index: 1;
   border-radius: 10px;
@@ -72,7 +72,7 @@ a[href*="twitter.com/"] {
   
 #sidebar .toggle-btn {
   position: absolute;
-  left: 265px;
+  left: 295px;
   top: 10px;
 }
   
