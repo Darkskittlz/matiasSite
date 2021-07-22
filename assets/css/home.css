@@ -25,9 +25,9 @@ body {
 
 #sidebar {
   position: absolute;
-  width: 17rem;
+  width: 19rem;
   height: 100%;
-  left: -260px;
+  left: -290px;
   transition: .4s;
   z-index: 1;
   border-radius: 10px;
@@ -59,14 +59,14 @@ body {
   
 #sidebar .toggle-btn {
   position: absolute;
-  left: 265px;
+  left: 295px;
   top: 10px;
 }
   
 .toggle-btn span {
   width: 45px;
   height: 4px;
-  background: rgba(2, 2, 2, 0.938);
+  background: rgb(253, 253, 253);
   display: block;
   margin-top: 4px;
 }
@@ -120,6 +120,7 @@ a[href*="youtube.com/"] {
   border-radius: 10px;
   margin-top: 10px;
   height: 320px;
+  width: 300px;
   backdrop-filter: 10px;  
   margin-bottom: 5px;
 }

@@ -40,7 +40,7 @@ a[href*="twitter.com/"] {
 
 .container-sm {
   border-radius: 10px;
-  width: 470px;
+  width: 440px;
   margin: 0px auto;
   text-align: center;
   background-image: url("../../img/goldStroke.png");
@@ -50,6 +50,8 @@ a[href*="twitter.com/"] {
   backdrop-filter: blur(10px);
   padding-left: 5px;
 }
+
+
 
 .container-sm h1{
    font-size: 51px;
@@ -72,9 +74,9 @@ input[type="password"] {
 
 #sidebar {
   position: absolute;
-  width: 17rem;
+  width: 19rem;
   height: 100%;
-  left: -260px;
+  left: -290px;
   transition: .4s;
   z-index: 1;
   border-radius: 10px;
@@ -107,7 +109,7 @@ input[type="password"] {
   
 #sidebar .toggle-btn {
   position: absolute;
-  left: 265px;
+  left: 295px;
   top: 10px;
 }
   
@@ -166,6 +168,11 @@ h3#quote  {
     font-size: 16px;
     text-align: center;
   }
+
+  .container-sm {
+    width: 330px;
+  }
+
   h3#quote  {
     font-size: 15px;
     font-style: italic;
