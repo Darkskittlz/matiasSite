@@ -24,19 +24,6 @@ body {
   position: relative;
 }
 
-a[href*="twitter.com/"] {
-  background:url(https://twitter.com/favicon.ico) no-repeat left center;
-  padding-left: 15px;
-  margin-left: -15px;
-  bottom: 0;
-  position: relative;
-}
-
-#icons {
-  background: none;
-  border: none;
-}
-
 .container-sm {
   border-radius: 10px;
   margin: 0px auto;
@@ -57,19 +44,6 @@ div.container-sm {
   margin-left: 9px;
   font-size: 41px;
 }
-
-input[type="email"] {
-  border-bottom-left-radius: 0px;;
-  border-bottom-right-radius: 0px;;
-}
-
-input[type="password"] {
-  border-top-left-radius: 0px;;
-  border-top-right-radius: 0px;;
-  border-top: 0px;
-}
-
-
 
 #sidebar {
   position: absolute;
@@ -148,21 +122,16 @@ input[type="password"] {
   border-radius: 10px;
 }
 
-.example-content-main iframe{
+.example-content-main iframe {
   margin: 5px;
-  width: 590px;
+  width: 470px;
   height: 390px;
 }
 
-.example-content-secondary {
-  border: 2px solid black;
-  margin: 0px auto;
-  margin-left: 0px;
-  margin-top: 5px;
+.example-content-secondary iframe {
+  margin: 5px;
+  width: 470px;
   height: 390px;
-  width: 350px;
-  border-radius: 10px;
-  backdrop-filter: blur(10px);
 }
 
 .example-content-secondary h1{

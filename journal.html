@@ -41,20 +41,29 @@
       <h1> Journal </h1>
     </div>
   </div>
-
-  <div id="journal" class="container-lg">
-    <div id="journal"class="container-fluid">
-      <h2>Oh yes I remember a time when times of old could not but contain that ache in my chest. Forsoothe, twas a nightmare that 
-        had awoken me from my slumber. Perchance to dream, it would seem, I was taken unawares by mysterious forces. 
-      </h2>
+  <div id="wrapper" class="justify-content-center">
+    <div id="note-editor">
+      <h2 id="note-editor-title">Create Note</h2>
+      <label>Title:</label>
+      <input type="text" id="title" name="title" />
+      <label>Body:</label>
+      <textarea rows="10" cols="42" id="message" name="message"></textarea>
+      <label>Color:</label>
+      <select id="color" name="color">
+        <option value="red" selected>Red</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+      </select>
+      <div id="button">
+        <button id="add-btn">Create Note</button>
+        <div id="error"></div>
+      </div>
     </div>
-    <h3 id="quote">
-      "“To die, to sleep – to sleep, perchance to dream – ay, there's the rub, for in this sleep of death what dreams may come…”  
-    </h3>
 
-    <h3 id="quote1">
-      - Hamlet
-    </h3>
+    <div id="notes-section">
+      <h2>Notes</h2>
+      <ul id="notes"></ul>
+    </div>
   </div>
 
 
@@ -79,5 +88,7 @@
     </script>
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script type="module" src="assets/js/starter.js"></script>
+    <script src="assets/js/journal.js"></script>
+
   </body>
 </html>
