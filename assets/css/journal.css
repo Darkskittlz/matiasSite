@@ -25,19 +25,6 @@ body {
   position: relative;
 }
 
-a[href*="twitter.com/"] {
-  background:url(https://twitter.com/favicon.ico) no-repeat left center;
-  padding-left: 15px;
-  margin-left: -15px;
-  bottom: 0;
-  position: relative;
-}
-
-#icons {
-  background: none;
-  border: none;
-}
-
 .container-sm {
   border-radius: 10px;
   width: 440px;
@@ -60,23 +47,12 @@ a[href*="twitter.com/"] {
   }
 
 
-input[type="email"] {
-  border-bottom-left-radius: 0px;;
-  border-bottom-right-radius: 0px;;
-}
-
-input[type="password"] {
-  border-top-left-radius: 0px;;
-  border-top-right-radius: 0px;;
-  border-top: 0px;
-}
-
 
 #sidebar {
   position: absolute;
   width: 19rem;
   height: 100%;
-  left: -290px;
+  left: -295px;
   transition: .4s;
   z-index: 1;
   border-radius: 10px;
@@ -104,12 +80,13 @@ input[type="password"] {
   list-style: none;
   font-size: 40px;
   padding: 2px 2px;
+  margin-right: 9px;
 }
 
   
 #sidebar .toggle-btn {
   position: absolute;
-  left: 295px;
+  left: 305px;
   top: 10px;
 }
   
@@ -151,11 +128,195 @@ input[type="password"] {
     margin-bottom: 5px;
 }
 
-
-
-
 h3#quote  {
   margin-top: 22px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+#wrapper {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0px auto;
+  padding: 0 20px;
+}
+
+div#note-editor {
+  padding-bottom: 12px;
+  margin-bottom: 48px;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  opacity: 1;
+  transition: all 0.25s ease-out;
+}
+
+#note-editor.hide {
+  opacity: 0;
+}
+
+label {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+input {
+  font-size: 16px;
+  display: block;
+  width: 300px;  
+  margin-bottom: 15px;
+  padding: 8px 6px;
+}
+
+input.is-empty {
+  border: 2px solid tomato;
+}
+
+textarea {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 15px;
+  padding: 8px 6px;
+}
+
+textarea.is-empty {
+  border: 1px solid tomato;
+}
+
+#button {
+  position: relative;
+}
+
+#error {
+  color: tomato;
+  position: absolute;
+  top: 12px;
+  left: 150px;
+  line-height: 16px;
+}
+
+select {
+  display: block;
+  margin-bottom: 15px;
+  width: 175px;
+  padding: 0;
+  height: 24px;
+}
+
+button {
+  position: relative;
+  display: block;
+  width: 100px;
+  margin-top: 40px;
+  padding: 12px 8px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  outline: none;
+  border:0;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  background: dodgerblue;
+  color: white;
+  font-size: 14px;
+}
+
+button#add-btn {
+  margin-top: 5px;
+}
+
+button:active {
+  box-shadow: 0px 0px 1px rgba(0,0,0,0.1);
+  top: 1px;
+  left: 1px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+#notes-section {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.25s ease-out;
+}
+
+#notes-section.hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+#notes li {
+  position: relative;
+  list-style-type: none;
+  display: block;
+  float: left;
+  width: 340px;
+  height: 250px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin: 0 5px 12px;
+}
+
+#notes li.red {
+  background: pink;
+}
+
+#notes li.green {
+  background: palegreen;
+}
+
+#notes li.blue {
+  background: lightskyblue;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 24px;
+  left: 0;
+  background: rgba(255,255, 255, 0.4);
+  padding: 5px 0;
+}
+
+.edit {
+  position: absolute;
+  height: 24px;
+  left: 12px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.delete {
+  float: right;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+
+i:before {
+  font-size: 18px;
+}
+
+.note-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+
+}
+
+.note-message {
+  display: block;
+  width: 100%;
 }
 
 @media screen and (max-width: 729px) {
