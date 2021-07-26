@@ -87,6 +87,8 @@ a[href*="twitter.com/"] {
 
 #wrap {
   min-height: 30%;
+  max-width: 70vh;
+  display: grid;
 }
   
 #main {
@@ -103,7 +105,8 @@ a[href*="twitter.com/"] {
 
 div #main.example-row.clear-top.container {
   background-color: rgba(255, 255, 255, 0.096);
-  display: inline-block;
+  width: 65vh;
+  display: grid;
   backdrop-filter: blur(10px);
   border-radius: 10px;
   margin-bottom: 10px;
@@ -116,19 +119,41 @@ div #main.example-row.clear-top.container .example-content-secondary ul li{
 }
 
 div.example-content-main {
-  display: inline-block;
+  display: inline-grid;
+}
+
+.container img {
+  height: 55vh;
+  max-width: 52vh;
+  border: 2px solid black;
+  display: inline-grid;
+  margin: 0px auto;
+}
+
+div #secondary.example-row.clear-top.container {
+  background-color: rgba(255, 255, 255, 0.096);
+  width: 65vh;
+  display: inline-grid;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;  
+  color: rgba(3, 2, 2, 0.705);
+}
+
+div#wrap.example-container {
+  display: inline-grid;
 }
 
 
-.example-content-main ul li {
-  margin-left: 0px;
-  font-weight: 600;
+
+
+.container h1 {
+  text-align: center;
 }
 
-.example-content-secondary ul li {
-  font-weight: 400;
-  color: rgba(240, 2, 2, 0.918);
-}
+
+
 
 .container-sm {
   border-radius: 10px;
