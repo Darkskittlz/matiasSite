@@ -34,7 +34,6 @@ body {
   background-size: cover;
   background-position: center;
   position: relative;
-  backdrop-filter: blur(10px);
   padding-left: 5px;
 }
 
@@ -111,6 +110,18 @@ body {
 .container-s a {
   margin-left: 19px;
 }
+
+iframe {
+  width: 80vh;
+  height: 51vh;
+  background-color: black;
+  margin: 0px auto;
+  display: block;
+}
+
+
+
+
 
 .container-lg {
     border: 2px solid black;
