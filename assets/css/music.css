@@ -29,11 +29,10 @@ a[href*="twitter.com/"] {
 body {
 padding: 4.5rem;
 margin: 0;
-height: 1000px;
 font-family: Source Sans Pro;
-background-image: url("../../img/oldPaper1.jpg");
+background-image: url("../../img/backgroundCollageIMG2.jpeg");
 background-position: center;
-background-repeat: no-repeat;
+background-repeat: repeat;
 background-size: cover;
 position: relative;
 }
@@ -81,9 +80,9 @@ margin-left: 50px;
 }
 
 .toggle-btn span {
-width: 45px;
-height: 4px;
-background: black;
+width: 55px;
+height: 7px;
+background: white;
 display: block;
 margin-top: 4px;
 }
