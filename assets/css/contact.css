@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
+
+
+@font-face {
+  font-family: "shakespeare";
+  src: url("shakespeare.ttf");
+  font-family: "notMyType";
+  src: url("notMyType.otf");
+}
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    padding: 4.5rem;
+    margin: 0;
+    background-color: #eae6f0;
+    background-image: url("../../img/oldPaper1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#sidebar {
+  position: absolute;
+  width: 19rem;
+  height: 100%;
+  left: -290px;
+  transition: .4s;
+  z-index: 1;
+  border-radius: 10px;
+  top: 0px;
+  background: #edc0bf;
+  background: url("../../img/burntPaper.png");
+  background-size: cover;
+  background-position: right;
+} 
+    
+#sidebar.active {
+  left: 0;
+  height: 100%;
+}
+  
+#sidebar ul li a {
+  text-decoration: none;
+  font-size: 39px;
+  font-family: 'notMyType';
+  color: black;
+}
+  
+#sidebar ul li{
+  list-style: none;
+  font-size: 50px;
+  padding: 2px 2px;
+}
+
+  
+#sidebar .toggle-btn {
+  position: absolute;
+  left: 295px;
+  top: 10px;
+}
+  
+.toggle-btn span {
+  width: 55px;
+  height: 7px;
+  background: rgb(0, 0, 0);
+  display: block;
+  margin-top: 4px;
+}
+
+
+.container-sm {
+    border-radius: 10px;
+    margin: 0px auto;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    backdrop-filter: blur(10px);
+}
+
+.container-sm h1 {
+    font-family: 'notMyType';
+    text-decoration: underline;
+}
+
+.container-sm h3{
+    text-align: center;
+    font-family: 'notMyType';
+}
+   
+

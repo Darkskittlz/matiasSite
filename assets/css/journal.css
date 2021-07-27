@@ -34,7 +34,6 @@ body {
   background-size: cover;
   background-position: center;
   position: relative;
-  backdrop-filter: blur(10px);
   padding-left: 5px;
 }
 
@@ -91,8 +90,8 @@ body {
 }
   
 .toggle-btn span {
-  width: 45px;
-  height: 4px;
+  width: 55px;
+  height: 7px;
   background: rgba(2, 2, 2, 0.938);
   display: block;
   margin-top: 4px;
@@ -111,6 +110,18 @@ body {
 .container-s a {
   margin-left: 19px;
 }
+
+iframe {
+  width: 80vh;
+  height: 51vh;
+  background-color: black;
+  margin: 0px auto;
+  display: block;
+}
+
+
+
+
 
 .container-lg {
     border: 2px solid black;

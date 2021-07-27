@@ -64,9 +64,9 @@ body {
 }
   
 .toggle-btn span {
-  width: 45px;
-  height: 4px;
-  background: rgb(253, 253, 253);
+  width: 55px;
+  height: 7px;
+  background: rgb(0, 194, 253);
   display: block;
   margin-top: 4px;
 }
@@ -85,6 +85,7 @@ a[href*="facebook.com/"] {
   margin-left: -15px;
   bottom: 0;
   position: relative;
+  height: 150px;
 }
 
 a[href*="youtube.com/"] {
@@ -94,6 +95,16 @@ a[href*="youtube.com/"] {
   bottom: 0;
   position: relative;
 }
+
+a[href*="spotify.com/"] {
+  background:url(https://spotify.com/favicon.ico) no-repeat left center;
+  padding-left: 15px;
+  margin-left: -5px;
+  bottom: 0;
+  position: relative;
+}
+
+
 
 
 #icons {
@@ -138,7 +149,7 @@ div.clearfix p{
   text-align: center;
 }
 
-div.container {
+div#icons.container {
   height: 25px;
   width: 210px;
   margin: 5px auto;
@@ -148,8 +159,8 @@ div.container {
   backdrop-filter: 10px;
 }
 
-div.container a {
-  margin-left: 27px;
+div#icons.container a {
+  margin-left: 15px;
 }
 
 .icon {
@@ -157,6 +168,11 @@ div.container a {
   margin-bottom: 4px;
 }
 
+div#mail.container a {
+  margin: 0px auto;
+  display: block;
+  width: 220px;
+}
 
 
 

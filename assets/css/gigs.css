@@ -17,7 +17,7 @@ body {
   padding: 4.5rem;
   margin: 0;
   background-color: #eae6f0;
-  background-image: url("../../img/oldPaper1.jpg");
+  background-image: url("../../img/backgroundCollageIMG.jpeg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -77,9 +77,9 @@ a[href*="twitter.com/"] {
 }
   
 .toggle-btn span {
-  width: 45px;
-  height: 4px;
-  background: rgba(2, 2, 2, 0.938);
+  width: 55px;
+  height: 7px;
+  background: whitesmoke;
   display: block;
   margin-top: 4px;
 }

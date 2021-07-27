@@ -85,6 +85,25 @@ a[href*="twitter.com/"] {
 }
 
 
+
+.container-sm {
+  border-radius: 10px;
+  width: 370px;
+  margin: 0px auto;
+  text-align: center;
+  background-image: url("../../img/bg3.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backdrop-filter: blur(10px);
+}
+
+.container-sm h1{
+  font-family: 'notMyType';
+  font-size: 61px;
+}
+
+
 #wrap {
   min-height: 30%;
   max-width: 70vh;
@@ -123,7 +142,7 @@ div.example-content-main {
 }
 
 .container img {
-  height: 55vh;
+  height: 65vh;
   max-width: 52vh;
   border: 2px solid black;
   display: inline-grid;
@@ -145,32 +164,26 @@ div#wrap.example-container {
   display: inline-grid;
 }
 
-
-
-
 .container h1 {
   text-align: center;
+  margin-left: 20px;
+}
+
+img.d-block.w-100 {
+  height: 65vh;
+  width: 10vh;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  height: 65vh;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.carousel {
+  height: 65vh;
 }
 
 
-
-
-.container-sm {
-  border-radius: 10px;
-  width: 370px;
-  margin: 0px auto;
-  text-align: center;
-  background-image: url("../../img/bg3.png");
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  backdrop-filter: blur(10px);
-}
-
-.container-sm h1{
-  font-family: 'notMyType';
-  font-size: 61px;
-}
 
 * {box-sizing:border-box}
 
@@ -210,7 +223,7 @@ div#wrap.example-container {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(243, 243, 243, 0.8);
 }
 
 /* Caption text */
