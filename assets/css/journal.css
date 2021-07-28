@@ -151,9 +151,10 @@ div.container-sm h1{
   
 
 iframe {
-  width: auto;
   background-color: black;
   margin: 0px auto;
+  width: 365px;
+  margin-left: -65px;
   display: block;
 }
 

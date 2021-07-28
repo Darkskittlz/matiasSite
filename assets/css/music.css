@@ -126,24 +126,24 @@ iframe {
     border-radius: 10px;
     width: 300px;
     height: auto;
-    margin: 0px auto;
     text-align: center;
     background-image: url("../../img/streak4.png");
     background-size: cover;
     background-position: center;
     position: relative;
     backdrop-filter: blur(10px);
+    margin: 0px auto;
+    margin-left: -25px;
     margin-bottom: 22px;
   }
 
 
-
-
-
   iframe {
-    display: block;
+    background-color: black;
     margin: 0px auto;
-    width: auto;
+    width: 370px;
+    margin-left: -85px;
+    display: block;
   }
 
 
