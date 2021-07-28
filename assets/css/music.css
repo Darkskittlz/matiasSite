@@ -120,203 +120,45 @@ iframe {
 
 
 
+@media screen and (max-width: 729px) {
+
+  .container-sm {
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    margin: 0px auto;
+    text-align: center;
+    background-image: url("../../img/streak4.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    backdrop-filter: blur(10px);
+    margin-bottom: 22px;
+  }
+
+
+
+
+
+  iframe {
+    display: block;
+    margin: 0px auto;
+    margin-left: -15px;
+    width: 300px;
+  }
 
 
 
 
 
 
-
-.container-fluid {
-position: relative;
-bottom: 0;
-}
-
-.container-lg {
-border: 2px solid black;
-backdrop-filter: 10px;
-}
-
-.music-container {
-margin-top: 310px;
-width: 380px;
-display: block;
-position: absolute;
-left: 50%;
-right: 50%;
-transform: translate(-50%, -50%);
-}
-
-.music-img {
-height: 435px;
-background-size: cover;
-background-position: center;
-background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../../img/img\ \(45\).jpg');
-img (45).jpg
-color: #fff;
-}
-
-.music-header {
-border-bottom: 1px solid #555;
-height: 50px;
-}
-
-.music-header .fa-angle-left {
-float: left;
-margin-top: 15px;
-margin-left: 15px;
-cursor: pointer;
-}
-
-.music-header .fa-list-ul {
-float: right;
-margin-top: 15px;
-margin-right: 10px;
-cursor: pointer;
-}
-
-.music-header .title {
-width: 250px;
-height: 30px;
-position: absolute;
-margin-left: 53px;
-margin-top: 10px;
-text-align: center;
-padding-left: 10px;
-}
-
-.inner-img {
-padding-top: 10px;
-}
-
-.inner-img img {
-height: 290px;
-border-radius: 50%;
-animation: rotate 5s linear infinite;
-margin-bottom: 5px;
-}
-@keyframes rotate {
-100%{transform: rotate(360deg);}
-}
-
-marquee {
-font-size: 12px;
-margin-top: -10px;
-}
-
-.music-control {
-background-image: linear-gradient(#ff000, #222);
-
-}
-
-.music-bar .progress {
-height: 5px !important;
-border-radius: 0 !important;
-background-color: #000;
-}
-
-.music-bar .progress-bar {
-width: 0%;
-background-color: #fff;
-animation: width 10s infinite;
-}
-@keyframes width {
-100%{width: 100%;}
-}
-
-.social-bar {
-height: 50px;
-border-bottom: 2px solid rgba(3, 3, 3, 0.938);
-background-color: #000000e1;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80' width='80' height='80'%3E%3Cpath fill='%23f7f6f9' fill-opacity='0.25' d='M14 16H9v-2h5V9.87a4 4 0 1 1 2 0V14h5v2h-5v15.95A10 10 0 0 0 23.66 27l-3.46-2 8.2-2.2-2.9 5a12 12 0 0 1-21 0l-2.89-5 8.2 2.2-3.47 2A10 10 0 0 0 14 31.95V16zm40 40h-5v-2h5v-4.13a4 4 0 1 1 2 0V54h5v2h-5v15.95A10 10 0 0 0 63.66 67l-3.47-2 8.2-2.2-2.88 5a12 12 0 0 1-21.02 0l-2.88-5 8.2 2.2-3.47 2A10 10 0 0 0 54 71.95V56zm-39 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm40-40a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM15 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm40 40a2 2 0 1 0 0-4 2 2 0 0 0 0 4z'%3E%3C/path%3E%3C/svg%3E");
-}
-
-.social-bar .fa {
-padding: 25px 26px;
-color: white;
-font-size: 15px;
-cursor: pointer;
-}
-
-.control-bar {
-height: 90px;
-border-bottom: 2px solid rgba(252, 252, 252, 0.603);
-padding-left: 39px;
-padding-top: 15px;
-width: 100%;
-background-color: #000000e1;
-color: white;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80' width='80' height='80'%3E%3Cpath fill='%23f7f6f9' fill-opacity='0.25' d='M14 16H9v-2h5V9.87a4 4 0 1 1 2 0V14h5v2h-5v15.95A10 10 0 0 0 23.66 27l-3.46-2 8.2-2.2-2.9 5a12 12 0 0 1-21 0l-2.89-5 8.2 2.2-3.47 2A10 10 0 0 0 14 31.95V16zm40 40h-5v-2h5v-4.13a4 4 0 1 1 2 0V54h5v2h-5v15.95A10 10 0 0 0 63.66 67l-3.47-2 8.2-2.2-2.88 5a12 12 0 0 1-21.02 0l-2.88-5 8.2 2.2-3.47 2A10 10 0 0 0 54 71.95V56zm-39 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm40-40a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM15 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm40 40a2 2 0 1 0 0-4 2 2 0 0 0 0 4z'%3E%3C/path%3E%3C/svg%3E");
-}
-
-.control-bar .fa {
-display: inline-block;
-margin: 0 5px;
-cursor: pointer;
-
-}
-
-.control-bar .fa-play {
-width: 60px;
-height: 60px;
-padding-top: 14px;
-color: #fff;
-background-color: rgba(3, 81, 248, 0.603);
-border-radius: 50%;
-font-size: 30px;
-margin-top: 5px;
 }
 
 
 
-.control-bar .fa-retweet, .control-bar .fa-step-random {
-width: 50px;
-height: 50px;
-padding-top: 15px;
-color: #ccc;
-font-size: 20 px;
-margin-left: 5px;
-}
-
-.user-menu {
-height: 70px;
-font-family: sans-serif;
-background-color: #000000e1;
-line-height: 25px;
-padding-bottom: 15px;
-}
-
-
-.user-menu ul{
-display: inline-block;
-padding: 12px 0;
-list-style-type: none;
-}
 
 
 
-.user-menu ul li {
-display: inline-block;
-padding: 0px 25px;
-color: #007bff;
-}
 
-.user-menu ul li  a {	
-color: #007bff;
-font-size: 10px;
-text-decoration: none;
-}
-
-.user-menu .fa {
-font-size: 22px;
-}
-
-.active .fa {
-color: #fff;
-}
-
-.active a p {
-color: #fff;
-}
 
 
