@@ -143,10 +143,9 @@ input.bandsInTown {
   
   div.container-lg {
     border-radius: 10px;
-    width: auto;
-    height: auto;
+    width: 365px;
     margin: 0px auto;
-    margin-left: -25px;
+    margin-left: -65px;
     display: block;
     margin-top: 10px;
     margin-bottom: 10px;
