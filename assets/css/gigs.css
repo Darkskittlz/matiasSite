@@ -126,7 +126,7 @@ div.container-lg li{
 
 input.bandsInTown {
   border-radius: 5px;
-  width: 70px;
+  width: 40px;
   font-size: 23px;
   padding: 5px;
   padding-top: 15px;
@@ -138,20 +138,27 @@ input.bandsInTown {
 @media screen and (max-width: 729px) {
   div.container-sm {
     margin: 0px auto;
+    margin-left: -25px;
     width: 290px;
   }
   
   div.container-lg {
-    width: 320px;
+    border-radius: 10px;
+    width: 300px;
     height: auto;
-  }
-
-  div.container-lg ul li {
-    font-size: 23px;
-  }
+    margin: 0px auto;
+    margin-left: -25px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 2px;
+    backdrop-filter: 10px;
+    background-color: rgba(0, 0, 0, 0.884);
+}
 
   input.bandsInTown {
-    font-size: 20px;
+    font-size: 22px;
+
   }
 }
 

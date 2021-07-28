@@ -71,46 +71,8 @@ body {
   margin-top: 4px;
 }
 
-a[href*="twitter.com/"] {
-  background:url(https://twitter.com/favicon.ico) no-repeat left center;
-  padding-left: 15px;
-  margin-left: -15px;
-  bottom: 0;
-  position: relative;
-}
-
-a[href*="facebook.com/"] {
-  background:url(https://facebook.com/favicon.ico) no-repeat left center;
-  padding-left: 15px;
-  margin-left: -15px;
-  bottom: 0;
-  position: relative;
-  height: 150px;
-}
-
-a[href*="youtube.com/"] {
-  background:url(https://youtube.com/favicon.ico) no-repeat left center;
-  padding-left: 15px;
-  margin-left: -15px;
-  bottom: 0;
-  position: relative;
-}
-
-a[href*="spotify.com/"] {
-  background:url(https://spotify.com/favicon.ico) no-repeat left center;
-  padding-left: 15px;
-  margin-left: -5px;
-  bottom: 0;
-  position: relative;
-}
 
 
-
-
-#icons {
-  background: none;
-  border: none;
-}
 
 div.container-sm {
   border-radius: 10px;
@@ -150,8 +112,8 @@ div.clearfix p{
 }
 
 div#icons.container {
-  height: 25px;
-  width: 210px;
+  height: 35px;
+  width: 225px;
   margin: 5px auto;
   display: block;
   border-radius: 10px;
@@ -160,12 +122,12 @@ div#icons.container {
 }
 
 div#icons.container a {
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 .icon {
-  height: 16px;
-  margin-bottom: 4px;
+  height: 30px;
+  margin-top: 2px;
 }
 
 div#mail.container a {

@@ -94,3 +94,36 @@ body {
 }
    
 
+
+@media screen and (max-width: 729px) {
+  
+.container-sm {
+  border-radius: 10px;
+  margin: 0px auto;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  backdrop-filter: blur(10px);
+}
+
+.container-sm h1 {
+  font-family: 'notMyType';
+  text-decoration: underline;
+  font-size: 35px;
+}
+
+.container-sm h3{
+  text-align: center;
+  font-family: 'notMyType';
+  font-size: 20px;
+  margin-left: -10px;
+}
+   
+
+
+
+
+
+
+}
