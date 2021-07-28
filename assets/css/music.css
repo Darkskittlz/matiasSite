@@ -11,18 +11,10 @@
   src: url("notMyType.otf");
 }
 
-html {
-  min-width: 100%;
-  min-height: 100%;
+html, body {
+  height: 100%;
 }
 
-a[href*="twitter.com/"] {
-  background:url(https://twitter.com/favicon.ico) no-repeat left center;
-  padding-left:19px;
-  margin-left: 10px;
-  bottom: 0;
-  position: relative;
-}
 
 
 
