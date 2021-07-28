@@ -142,8 +142,7 @@ iframe {
 @media screen and (max-width: 729px) {
 
 div.container-sm {
-  width: 300px;
-  margin-left: -20px;
+  width: auto;
 }
 
 div.container-sm h1{
@@ -153,10 +152,8 @@ div.container-sm h1{
 
 iframe {
   width: auto;
-  height: 40vh;
   background-color: black;
   margin: 0px auto;
-  margin-left: -25px;
   display: block;
 }
 

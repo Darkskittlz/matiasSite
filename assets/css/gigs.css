@@ -138,13 +138,12 @@ input.bandsInTown {
 @media screen and (max-width: 729px) {
   div.container-sm {
     margin: 0px auto;
-    margin-left: -25px;
-    width: 290px;
+    width: auto;
   }
   
   div.container-lg {
     border-radius: 10px;
-    width: 300px;
+    width: auto;
     height: auto;
     margin: 0px auto;
     margin-left: -25px;
