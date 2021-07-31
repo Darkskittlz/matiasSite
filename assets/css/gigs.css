@@ -98,7 +98,7 @@ div.container-sm {
 
 
 
-div.container-lg {
+div.clearfix {
     border-radius: 10px;
     width: 600px;
     height: auto;
@@ -134,18 +134,22 @@ input.bandsInTown {
     width: auto;
   }
   
-  div.container-fluid {
+  div.clearfix {
   border-radius: 10px;
-  width: 405px;
   margin: 0px auto;
-  margin-left: -69px;
   display: block;
+  width: 410px;
+  margin-left: -70px;
   margin-top: 10px;
   margin-bottom: 10px;
   padding-top: 2px;
   backdrop-filter: 10px;
   background-color: rgba(0, 0, 0, 0.884);
 }
+/* 
+div.bit-widget .bit-layout-ipad .bit-layout-logo-ipad {
+  width: 50px;
+} */
 
 input.bandsInTown {
   font-size: 22px;

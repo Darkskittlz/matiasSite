@@ -129,17 +129,11 @@ iframe {
   }
 
 
-  iframe {
-    background-color: black;
-    width: 390px;
-  }
-
-  div.container-fluid {
+  div.clearfix {
     display: block;
     margin: 0px auto;
-    margin-left: -75px;
+    width: auto;
   }
-
 
 
 
