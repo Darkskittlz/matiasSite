@@ -18,7 +18,7 @@ body {
   margin: 0;
   background-color: #eae6f0;
   background-image: url("../../img/backgroundCollageIMG.jpeg");
-  background-size: cover;
+  background-size: tile;
   background-position: center;
   position: relative;
 }
@@ -134,22 +134,21 @@ input.bandsInTown {
     width: auto;
   }
   
-  div.container-lg {
-    border-radius: 10px;
-    width: 365px;
-    margin: 0px auto;
-    margin-left: -65px;
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-top: 2px;
-    backdrop-filter: 10px;
-    background-color: rgba(0, 0, 0, 0.884);
+  div.container-fluid {
+  border-radius: 10px;
+  width: 405px;
+  margin: 0px auto;
+  margin-left: -69px;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 2px;
+  backdrop-filter: 10px;
+  background-color: rgba(0, 0, 0, 0.884);
 }
 
-  input.bandsInTown {
-    font-size: 22px;
-
+input.bandsInTown {
+  font-size: 22px;
   }
 }
 

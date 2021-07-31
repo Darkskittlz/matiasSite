@@ -18,7 +18,7 @@ body {
   margin: 0;
   background-color: #eae6f0;
   background-image: url("../../img/MatiasProfilePic.jpeg");
-  background-size: contain;
+  background-size: tile;
   background-position: center;
   position: relative;
 }

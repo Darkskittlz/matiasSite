@@ -25,7 +25,7 @@ font-family: Source Sans Pro;
 background-image: url("../../img/backgroundCollageIMG2.jpeg");
 background-position: center;
 background-repeat: repeat;
-background-size: cover;
+background-size: tile;
 position: relative;
 }
 
@@ -125,20 +125,20 @@ iframe {
     position: relative;
     backdrop-filter: blur(10px);
     margin: 0px auto;
-    margin-left: -25px;
     margin-bottom: 22px;
   }
 
 
   iframe {
     background-color: black;
-    margin: 0px auto;
-    width: 370px;
-    margin-left: -85px;
-    display: block;
+    width: 390px;
   }
 
-
+  div.container-fluid {
+    display: block;
+    margin: 0px auto;
+    margin-left: -75px;
+  }
 
 
 
