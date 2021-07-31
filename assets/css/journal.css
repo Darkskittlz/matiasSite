@@ -152,13 +152,15 @@ div.container-sm h1{
 
 iframe {
   background-color: black;
-  margin: 0px auto;
-  width: 365px;
-  margin-left: -65px;
   display: block;
+  width: 390px;
 }
 
-
+div.container-fluid {
+  display: block;
+  margin: 0px auto;
+  margin-left: -75px;
+}
 
 
 }
