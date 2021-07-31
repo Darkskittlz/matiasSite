@@ -106,9 +106,16 @@ img#profileIMG.col-md-6 {
   /* width: 59rem; */
 }
 
+div.clearfix h2{
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  text-decoration: underline;
+}
+
 div.clearfix p{
   color: white;
-  text-align: center;
+  text-align: left;
 }
 
 div#icons.container {
