@@ -149,8 +149,20 @@ div#contact.container.justify-content-center.d-flex {
   margin-top: 5px;
 }
 
-div#contact.container.justify-content-center.d-flex a {
-  margin-left: 10px;
+
+.btn-outline-success {
+  backdrop-filter: blur(10px);
+  font-size: 25px;
+}
+
+.btn-outline-primary {
+  margin-left: 5px;
+  backdrop-filter: blur(10px);
+  font-size: 25px;
+}
+
+.btn-outline-warning {
+  margin-left: 5px;
   backdrop-filter: blur(10px);
   font-size: 25px;
 }
