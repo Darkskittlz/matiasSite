@@ -114,10 +114,12 @@ body {
 
 
 iframe {
-  height: 51vh;
   margin: 0px auto;
   display: block;
+  width: auto;
+  height: 350px;
 }
+
 
 div.clearfix {
   display: block;
@@ -157,9 +159,8 @@ div.clearfix {
   }
 
   iframe {
-    height: auto;
-    width: auto;
-    }
+    height: 205px;
+  }
 
   div.clearfix {
     display: block;
