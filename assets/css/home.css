@@ -72,8 +72,6 @@ body {
 }
 
 
-
-
 div.container-sm {
   border-radius: 10px;
   height: 55px;
@@ -124,8 +122,8 @@ div#icons.container {
   margin: 5px auto;
   display: block;
   border-radius: 10px;
-  background-color: rgba(7, 35, 36, 0.74);
-  backdrop-filter: 10px;
+  background-color: rgba(7, 35, 36, 0.549);
+  backdrop-filter: blur(10px);
 }
 
 div#icons.container a {
@@ -140,11 +138,22 @@ div#icons.container a {
 div#mail.container a {
   margin: 0px auto;
   display: block;
-  width: 220px;
+  width: 205px;
+  font-size: 15px;
+  margin-top: 10px;
 }
 
+div#contact.container.justify-content-center.d-flex {
+  margin: 0px auto;
+  display: inline-block;
+  margin-top: 5px;
+}
 
-
+div#contact.container.justify-content-center.d-flex a {
+  margin-left: 10px;
+  backdrop-filter: blur(10px);
+  font-size: 25px;
+}
 
 
 @media screen and (max-width: 729px) {
