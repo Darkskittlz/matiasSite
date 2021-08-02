@@ -111,12 +111,18 @@ body {
   margin-left: 19px;
 }
 
+
+
 iframe {
-  width: 80vh;
   height: 51vh;
-  background-color: black;
   margin: 0px auto;
   display: block;
+}
+
+div.clearfix {
+  display: block;
+  margin: 0px auto;
+  width: auto;
 }
 
 
@@ -139,27 +145,26 @@ iframe {
     margin-bottom: 5px;
 }
 
+
+
 @media screen and (max-width: 729px) {
+  div.container-sm {
+    width: auto;
+  }
 
-div.container-sm {
-  width: auto;
-}
+  div.container-sm h1{
+    font-size: 45px;
+  }
 
-div.container-sm h1{
-  font-size: 45px;
-}
-  
+  iframe {
+    height: auto;
+    width: auto;
+    }
 
-iframe {
-  background-color: black;
-}
-
-div.clearfix {
-  display: block;
-  margin: 0px auto;
-  width: auto;
-}
-
-
+  div.clearfix {
+    display: block;
+    margin: 0px auto;
+    width: auto;
+  }
 }
 
