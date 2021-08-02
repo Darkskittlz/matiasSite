@@ -155,8 +155,9 @@ iframe {
 }
 
 div.clearfix {
-  width: 390px;
-  margin-left: -55px;
+  display: block;
+  margin: 0px auto;
+  width: auto;
 }
 
 
