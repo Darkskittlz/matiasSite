@@ -18,7 +18,6 @@ body {
   margin: 0;
   background-color: #eae6f0;
   background-image: url("../../img/backgroundCollageIMG.jpeg");
-  background-size: tile;
   background-position: center;
   position: relative;
 }
@@ -72,7 +71,7 @@ body {
 .toggle-btn span {
   width: 55px;
   height: 7px;
-  background: whitesmoke;
+  background: #E26EBA;
   display: block;
   margin-top: 4px;
 }
