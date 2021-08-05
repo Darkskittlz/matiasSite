@@ -126,6 +126,13 @@ input.bandsInTown {
   margin: 0px auto;
 }
 
+@media screen and (max-width: 425px) {
+  div.clearfix {
+    width: 90px;
+  }
+
+
+
 
 @media screen and (max-width: 729px) {
   div.container-sm {
