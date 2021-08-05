@@ -19,7 +19,8 @@ body {
   margin: 0;
   background-color: #eae6f0;
   background-image: url("../../img/TILEPINK.jpg");
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
   position: relative;
 }
 
