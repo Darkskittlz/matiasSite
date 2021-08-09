@@ -17,10 +17,9 @@ html, body {
 body {
   padding: 4.5rem;
   margin: 0;
-  background-color: #eae6f0;
   background-image: url("../../img/TILEPINK.jpg");
-  background-size: cover;
-  background-position: center;
+  background-size: contain;
+  background-repeat: repeat;
   position: relative;
 }
 
