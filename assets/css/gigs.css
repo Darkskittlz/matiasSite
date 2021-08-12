@@ -19,6 +19,7 @@ body {
   background-color: #eae6f0;
   background-image: url("../../img/backgroundCollageIMG.jpeg");
   background-position: center;
+  background-repeat: repeat;
   position: relative;
 }
 
@@ -99,7 +100,7 @@ div.container-sm {
 
 div.clearfix {
     border-radius: 10px;
-    width: 600px;
+    width: 300px;
     height: auto;
     margin: 0px auto;
     display: block;
@@ -126,15 +127,26 @@ input.bandsInTown {
   margin: 0px auto;
 }
 
+@include media-breakpoint-up(xs) { 
+
+ }
+@include media-breakpoint-up(sm) { 
+  div.bit-widget-container {
+    width: 200px;
+  }
+ }
+@include media-breakpoint-up(md) { 
+
+ }
+
+/* 
 @media screen and (max-width: 425px) {
   div.clearfix {
     width: 90px;
   }
+}
 
-
-
-
-@media screen and (max-width: 729px) {
+@media screen and (max-width: 768px) {
   div.container-sm {
     margin: 0px auto;
     width: auto;
@@ -146,16 +158,17 @@ input.bandsInTown {
   display: block;
   width: 300px;
   margin-top: 10px;
+  margin-left: -50px;
   margin-bottom: 10px;
   padding-top: 2px;
   backdrop-filter: 10px;
   background-color: rgba(0, 0, 0, 0.884);
 }
 
-
-input.bandsInTown {
-  font-size: 22px;
+  form {
+    margin-left: -30px;
   }
-}
+} */
+
 
 
