@@ -103,8 +103,14 @@ margin-top: 4px;
 iframe {
   display: block;
   margin: 0px auto;
-  width: 550px;
-  height: 600px;
+  width: 800px;
+  height: 500px;
+  margin: 10px auto;
+}
+
+div.clearfix2 iframe {
+  height: 200px;
+  width: 800px;
 }
 
 
