@@ -18,8 +18,11 @@ body {
   margin: 0;
   background-color: #eae6f0;
   background-image: url("../../img/MatiasProfilePic.jpeg");
-  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-repeat: repeat;
+  background-size: cover;
   position: relative;
 }
 
@@ -79,7 +82,7 @@ body {
 
 div.container-sm {
   border-radius: 10px;
-  width: 340px;
+  width: 290px;
   height: auto;
   margin: 0px auto;
   text-align: center;
@@ -100,8 +103,8 @@ div.container-sm {
 
 div.clearfix {
     border-radius: 10px;
-    width: 300px;
-    height: auto;
+    width: 900px;
+    height: 600px;
     margin: 0px auto;
     display: block;
     margin-top: 10px;
@@ -127,48 +130,21 @@ input.bandsInTown {
   margin: 0px auto;
 }
 
-@include media-breakpoint-up(xs) { 
-
- }
+/* 
 @include media-breakpoint-up(sm) { 
   div.bit-widget-container {
     width: 200px;
   }
- }
-@include media-breakpoint-up(md) { 
+ } */
 
- }
+ @media screen and (max-width: 729px) {
 
-/* 
-@media screen and (max-width: 425px) {
   div.clearfix {
-    width: 90px;
+    width: 300px;
+    height: 350px;
   }
-}
 
-@media screen and (max-width: 768px) {
-  div.container-sm {
-    margin: 0px auto;
-    width: auto;
-  }
-  
-  div.clearfix {
-  border-radius: 10px;
-  margin: 0px auto;
-  display: block;
-  width: 300px;
-  margin-top: 10px;
-  margin-left: -50px;
-  margin-bottom: 10px;
-  padding-top: 2px;
-  backdrop-filter: 10px;
-  background-color: rgba(0, 0, 0, 0.884);
-}
-
-  form {
-    margin-left: -30px;
-  }
-} */
+ }
 
 
 
