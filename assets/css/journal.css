@@ -18,7 +18,10 @@ body {
   padding: 4.5rem;
   margin: 0;
   background-image: url("../../img/TILEPINK.jpg");
-  background-size: contain;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-repeat: repeat;
   position: relative;
 }
@@ -115,7 +118,8 @@ iframe {
   margin: 0px auto;
   display: block;
   width: auto;
-  height: 350px;
+  height: 550px;
+  width: 600px;
 }
 
 
@@ -157,7 +161,7 @@ div.clearfix {
   }
 
   iframe {
-    height: 205px;
+    height: 305px;
   }
 
   div.clearfix {
