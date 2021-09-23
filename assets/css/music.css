@@ -114,7 +114,12 @@ div.clearfix2 iframe {
 }
 
 
+@media screen and (min-width: 729px) {
 
+
+
+
+}
 
 
 
@@ -137,21 +142,21 @@ div.clearfix2 iframe {
   }
 
   div.clearfix {
-    display: block;
-    margin: 0px auto;
-    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
   }
 
   iframe {
     display: block;
     margin: 0px auto;
-    width: 450px;
+    width: auto;
     height: 600px;
   }
 
   div.clearfix2 iframe {
-    height: 200px;
-    width: 267px;
+
+    width: auto
   }
 }
 
