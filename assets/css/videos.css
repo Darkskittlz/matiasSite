@@ -110,7 +110,7 @@ div.container-sm {
   border-radius: 10px;
   /* padding: 5px; */
   background-color: rgba(255, 255, 255, 0.096);
-  height: auto;
+  height: auto; 
   max-width: 1500px;
   overflow: auto;
   margin: 0px auto;
