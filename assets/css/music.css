@@ -113,6 +113,11 @@ div.clearfix2 iframe {
   width: 800px;
 }
 
+div.clearfix3 iframe {
+  height: 350px;
+  width: 800px;
+}
+
 
 @media screen and (min-width: 729px) {
 
