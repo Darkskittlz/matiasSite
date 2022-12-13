@@ -109,20 +109,18 @@ div.container-sm {
   background-color: rgba(255, 255, 255, 0.096);
   backdrop-filter: blur(10px);
   height: auto;
-  max-width: 1000px;
   overflow: hidden;
   margin: 0px auto;
 }
 
-.example-row .clear-top .container {
-  width: 200px;
-  position: relative;
-  border-radius: 10px;
+.example-content-main {
+  margin-top: 20px;
 }
 
 .example-content-main iframe {
   margin: 5px;
-  width: 470px;
+  width: 100%;
+  margin-left: 15%;
   height: 390px;
 }
 
@@ -150,8 +148,13 @@ div.container-sm {
   div.container-sm h1{
     font-size: 35px;
   }
+
+  .example-content-main {
+    width: 50%;
+ }
   .example-content-main iframe{
-    width: 330px;
+    width: 230px;
+    height: 200px;
     text-align: center;
   }
   div.example-content-secondary {

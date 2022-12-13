@@ -130,12 +130,28 @@ div.clearfix {
 
 
 
-.container-lg {
+/* .container-lg {
     border: 2px solid black;
     border-radius: 10px;
     width: 550px;
     margin: 0px auto;
     height: 500px;
+    color: whitesmoke;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.705);
+    backdrop-filter: 10px;
+    text-align: center;
+    font-family: 'Newsreader', serif;
+    padding-top: 20px;
+    margin-bottom: 5px;
+} */
+
+.container-lg iframe {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 550px;
+    margin: 0px auto;
+    height: 300px;
     color: whitesmoke;
     margin-top: 10px;
     background-color: rgba(0, 0, 0, 0.705);
